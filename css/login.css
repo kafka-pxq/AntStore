@@ -1,0 +1,81 @@
+#header{
+	height:88px;
+	border: 1px solid #ccc;
+	/* background-color: #ccc; */
+}
+#header .h_center{
+	width: 1200px;
+	height: 88px;
+	margin: 0 auto;
+}
+#header .h_center img{
+	float: left;
+	margin-top: 5px;
+}
+#header .h_center p{
+	float: left;
+	text-align: center;
+	width:880px;
+	font-size: 10px;
+	border: 1px solid #ffb4a8;
+	margin-top: 20px;
+	margin-left: 80px;
+	padding: 3px;
+	color: #6c6c6c;
+	background: #fef2f2;
+}
+#login_body{
+	height: 600px;
+	background-image: url(../images/login_bg.png);
+	background-position: center center;
+}
+#login_body .login_b_center{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+#login_body .login_b_center .login_bg{
+	width: 350px;
+	height: 351px;
+	background: rgba(255,255,255,0.8);
+	position: absolute;
+	right: 10px;
+	top: 120px;
+	padding: 30px;
+}
+#login div{
+	height: 40px;
+	margin-top: 20px;
+}
+#login span{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: red;
+	float: left;
+	border: 1px solid #ccc;
+}
+#login .username span{
+	background-image: url(../images/userName_Icon.png);
+}
+#login .password span{
+	background-image: url(../images/password_Icon.png);
+}
+#login input{
+	width: 250px;
+	height: 40px;
+	float: left;
+	border: 1px ;
+}
+#login .login_btn input{
+	background-color: #f40;
+	border: none;
+	width: 290px;
+	color: white;
+	font-size: 15px;
+}
+#login .forgot_pwd{
+	text-align: right;
+	margin-top: 40px;
+}
